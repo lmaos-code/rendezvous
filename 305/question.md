@@ -1,0 +1,1 @@
+**Given some JSON data, calculate the maximum depth reached**. Both arrays and dictionaries increase the depth! If the input is invalid data, the response should be undefined (you decide how you want that to return).
