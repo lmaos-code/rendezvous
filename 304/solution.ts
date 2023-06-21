@@ -1,0 +1,1 @@
+const trimArray = (i: number[], front: number, end: number) => i.slice(front, i.length - end);
