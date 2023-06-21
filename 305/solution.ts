@@ -1,6 +1,4 @@
-function depthJSON(json: any): number {
-	return (typeof json != 'object' && json != null) ? 0 : 1 + Math.max(0, ...Object.values(json).map((val) => depthJSON(val) as number));
-}
+const depthJSON = (json: any): number => (typeof json != 'object' && json != null) ? 0 : 1 + Math.max(0, ...Object.values(json).map((val) => depthJSON(val) as number));
 
 
 console.log(depthJSON({ "a": 1 }))
