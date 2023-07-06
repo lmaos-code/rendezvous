@@ -1,0 +1,1 @@
+Given an integer `n`, return `true` if it's a perfect square AND when reversed, is still a perfect square.
