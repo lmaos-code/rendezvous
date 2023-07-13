@@ -1,0 +1,1 @@
+Given an array of strings and a max width, format the text such that each line has exactly maxWidth characters and is fully justified. You can choose how you want to wrap a word.
