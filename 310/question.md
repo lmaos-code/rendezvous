@@ -1,0 +1,1 @@
+Given an array where each element is the price of a given stock on that index's day, choose a single day to buy a stock and a different day (in the future/later in the array) to sell the stock to maximize your profit. Return the maximum profit that you can get from a given input. If you can't profit, return 0.
