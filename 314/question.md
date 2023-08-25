@@ -1,0 +1,1 @@
+Make a "guessing game" where there is a target number, and as the user makes guesses, the output returns higher or lower until the user is correct.
