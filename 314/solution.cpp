@@ -8,25 +8,24 @@ int main()
 
     srand (time(NULL));
 
-    int Zahl = rand() % 100 + 1;
+    int Number = rand() % 100 + 1;
 
-    int Geraten;
+    int Guessed;
 
+	
 
+	cout << "Guess a number! It is between 1 and 100" << endl;
 
-    cout << "Eraten sie eine Zahl! Sie liegt zwischen 1 und 100" << endl;
-
-    while(Geraten != Zahl)
+	while(Guessed != Number)
     {
-       cin >> Geraten;
-        if (Geraten < Zahl)
+       cin >> Guessed;
+        if (Guessed < Number)
         {
-            cout << "Die Zahl ist groeßer. Versuchen Sie es nochmal!"  << endl;
-        }else if(Geraten > Zahl){
-        cout << "Die Zahl ist kleiner. Versuchen Sie es nochmal!" << endl;
-
-        }else{
-            cout <<"Richtig" << endl;
+			cout << "The number is bigger. Try again!" << endl;
+		}else if(Guessed > Number){
+			cout << "The number is smaller. Try again!" << endl;
+		}else{
+            cout <<"Correct!" << endl;
         }
     }
 
